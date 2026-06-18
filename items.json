@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "slot": 1,
+      "name": "Sony FE 100-400mm f/4.5 GM OSS",
+      "desc": "The Sony FE 100-400mm f/4.5 GM OSS is a full-frame, super-telephoto zoom lens designed for wildlife, birding, sports, and journalism photography.",
+      "url": "https://primesandzooms.com/pune/sony-fe-100-400mm-f-4-5-gm-oss.html"
+    },
+    {
+      "slot": 2,
+      "name": "Samsung Galaxy S26 Ultra",
+      "desc": "The Samsung Galaxy S26 Ultra is a premium flagship smartphone designed for powerful performance, advanced AI features, and high-quality photography.",
+      "url": "https://primesandzooms.com/pune/samsung-galaxy-s26-ultra.html"
+    },
+    {
+      "slot": 3,
+      "name": "Sony ZV-E10 II",
+      "desc": "The Sony ZV-E10 II is a mirrorless, crop-sensor, E-mount interchangeable-lens camera featuring an APS-C sized sensor.",
+      "url": "https://primesandzooms.com/pune/sony-zv-e10-ii.html"
+    },
+    {
+      "slot": 4,
+      "name": "Rode VideoMic GO II-H",
+      "desc": "The Rode VideoMic GO II-H is a lightweight, compact on-camera microphone designed for content creators, filmmakers, and videographers.",
+      "url": "https://primesandzooms.com/pune/rode-videomic-go-ii-h.html"
+    },
+    {
+      "slot": 5,
+      "name": "Hollyland Lark M2 Combo",
+      "desc": "The Hollyland Lark M2 Combo is a compact 2-person wireless microphone system designed for content creators, vloggers, mobile journalists, podcasters, and filmmakers.",
+      "url": "https://primesandzooms.com/pune/hollyland-lark-m2-combo-2-person-wireless-lavalier-mic.html"
+    }
+  ]
+}
