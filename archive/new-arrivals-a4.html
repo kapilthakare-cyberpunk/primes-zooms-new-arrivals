@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Primes & Zooms — New Arrivals A4</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 794px;
+    height: 1123px;
+    overflow: hidden;
+  }
+
+  body {
+    background: #1A1A1A;
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', 'Arial Narrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .poster {
+    width: 794px;
+    height: 1123px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* RED HEADER BAND */
+  .header {
+    background: #CB1513;
+    padding: 52px 38px 38px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .header .tag {
+    font-family: 'Space Mono', 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.55);
+    margin-bottom: 14px;
+  }
+  .header h1 {
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1.05;
+    color: #1A1A1A;
+    text-transform: uppercase;
+  }
+  .header h1 .accent {
+    color: #fff;
+  }
+
+  /* ITEM LIST */
+  .items {
+    flex: 1;
+    padding: 44px 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding: 26px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+  }
+  .item:first-child {
+    padding-top: 0;
+  }
+
+  .item .num {
+    flex: 0 0 auto;
+    width: 48px;
+    height: 48px;
+    background: #CB1513;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .item .details {
+    flex: 1;
+  }
+  .item .name {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    min-height: 30px;
+    border-bottom: 1px dashed rgba(255,255,255,0.2);
+    padding-bottom: 6px;
+  }
+  .item .meta {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: #CB1513;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    min-height: 14px;
+  }
+
+  .item .badge {
+    flex: 0 0 auto;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    color: #1A1A1A;
+    background: #CB1513;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 28px 52px 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #CB1513;
+    flex-shrink: 0;
+  }
+  .footer .brand {
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .footer .brand span { color: #CB1513; }
+  .footer .cta {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: rgba(255,255,255,0.65);
+    text-align: right;
+    line-height: 1.5;
+  }
+
+  @media print {
+    html, body, .poster { width: 210mm; height: 297mm; }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+  <div class="poster">
+
+    <div class="header">
+      <div class="tag">Primes &amp; Zooms · Rental Update</div>
+      <h1>New<br><span class="accent">Arrivals</span></h1>
+    </div>
+
+    <div class="items">
+      <div class="item">
+        <div class="num">1</div>
+        <div class="details">
+          <div class="name">&nbsp;</div>
+          <div class="meta">&nbsp;</div>
+        </div>
+        <div class="badge">New</div>
+      </div>
+      <div class="item">
+        <div class="num">2</div>
+        <div class="details">
+          <div class="name">&nbsp;</div>
+          <div class="meta">&nbsp;</div>
+        </div>
+        <div class="badge">New</div>
+      </div>
+      <div class="item">
+        <div class="num">3</div>
+        <div class="details">
+          <div class="name">&nbsp;</div>
+          <div class="meta">&nbsp;</div>
+        </div>
+        <div class="badge">New</div>
+      </div>
+      <div class="item">
+        <div class="num">4</div>
+        <div class="details">
+          <div class="name">&nbsp;</div>
+          <div class="meta">&nbsp;</div>
+        </div>
+        <div class="badge">New</div>
+      </div>
+      <div class="item">
+        <div class="num">5</div>
+        <div class="details">
+          <div class="name">&nbsp;</div>
+          <div class="meta">&nbsp;</div>
+        </div>
+        <div class="badge">New</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand">Primes <span>&amp;</span> Zooms</div>
+      <div class="cta">Ask our staff for current<br>availability &amp; pricing</div>
+    </div>
+
+  </div>
+</body>
+</html>

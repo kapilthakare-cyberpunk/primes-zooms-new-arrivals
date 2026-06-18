@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Primes & Zooms — New Arrivals A3 Poster</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A3 portrait; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 1123px;
+    height: 1587px;
+    overflow: hidden;
+  }
+
+  body {
+    background: #1A1A1A;
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', 'Arial Narrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .poster {
+    width: 1123px;
+    height: 1587px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* HEADER */
+  .header {
+    background: #CB1513;
+    padding: 75px 60px 60px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .header .tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.55);
+    margin-bottom: 20px;
+  }
+  .header h1 {
+    font-size: 110px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 1.02;
+    color: #1A1A1A;
+    text-transform: uppercase;
+  }
+  .header h1 .accent {
+    color: #fff;
+  }
+
+  /* HERO ITEM */
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    padding: 50px 60px;
+    background: #232323;
+    border-bottom: 3px solid #CB1513;
+    flex-shrink: 0;
+  }
+  .hero .num {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 80px;
+    background: #CB1513;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .hero .details { flex: 1; }
+  .hero .label {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #CB1513;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .hero .name {
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.1;
+    min-height: 52px;
+    border-bottom: 1px dashed rgba(255,255,255,0.2);
+    padding-bottom: 10px;
+  }
+  .hero .meta {
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    margin-top: 10px;
+    letter-spacing: 1px;
+    min-height: 16px;
+  }
+  .hero .badge {
+    flex: 0 0 auto;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1A1A1A;
+    background: #CB1513;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    white-space: nowrap;
+  }
+
+  /* GRID */
+  .grid {
+    flex: 1;
+    padding: 44px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 28px;
+    background: #232323;
+    border-left: 5px solid #CB1513;
+    border-radius: 6px;
+  }
+
+  .item .num {
+    width: 36px;
+    height: 36px;
+    background: #CB1513;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .item .name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    min-height: 32px;
+    border-bottom: 1px dashed rgba(255,255,255,0.2);
+    padding-bottom: 8px;
+  }
+  .item .meta {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: #CB1513;
+    letter-spacing: 1px;
+    min-height: 14px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 36px 60px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #CB1513;
+    flex-shrink: 0;
+  }
+  .footer .brand {
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .footer .brand span { color: #CB1513; }
+  .footer .cta {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    color: rgba(255,255,255,0.65);
+    text-align: right;
+    line-height: 1.6;
+  }
+
+  @media print {
+    html, body, .poster { width: 297mm; height: 420mm; }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+  <div class="poster">
+
+    <div class="header">
+      <div class="tag">Primes &amp; Zooms · Rental Update</div>
+      <h1>New<br><span class="accent">Arrivals</span></h1>
+    </div>
+
+    <div class="hero">
+      <div class="num">1</div>
+      <div class="details">
+        <div class="label">This Week's Highlight</div>
+        <div class="name">&nbsp;</div>
+        <div class="meta">&nbsp;</div>
+      </div>
+      <div class="badge">Just In</div>
+    </div>
+
+    <div class="grid">
+      <div class="item">
+        <div class="num">2</div>
+        <div class="name">&nbsp;</div>
+        <div class="meta">&nbsp;</div>
+      </div>
+      <div class="item">
+        <div class="num">3</div>
+        <div class="name">&nbsp;</div>
+        <div class="meta">&nbsp;</div>
+      </div>
+      <div class="item">
+        <div class="num">4</div>
+        <div class="name">&nbsp;</div>
+        <div class="meta">&nbsp;</div>
+      </div>
+      <div class="item">
+        <div class="num">5</div>
+        <div class="name">&nbsp;</div>
+        <div class="meta">&nbsp;</div>
+      </div>
+      <div class="item">
+        <div class="num">6</div>
+        <div class="name">&nbsp;</div>
+        <div class="meta">&nbsp;</div>
+      </div>
+      <div class="item">
+        <div class="num">7</div>
+        <div class="name">&nbsp;</div>
+        <div class="meta">&nbsp;</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand">Primes <span>&amp;</span> Zooms</div>
+      <div class="cta">Ask our staff for current<br>availability &amp; pricing</div>
+    </div>
+
+  </div>
+</body>
+</html>
